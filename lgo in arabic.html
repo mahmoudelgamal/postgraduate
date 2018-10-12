@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<title>home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/log%20in%20rtl.css">
+	<link rel="stylesheet" href="css/sign%20up.css">
+	<link rel="stylesheet" href="css/sign%20up%20rtl.css">
+	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+	<!--   start log in-->
+	<section class="log-in">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="have-an-acount" id="applyForPostgeaduate">
+					<h2>لم تمتلك حساب بعد ؟</h2>
+					<button class="btn btn-success"><i class="fas fa-file-invoice"></i> التقدم للدراسات العليا</button>
+				</div>
+
+			</div>
+			<div class="col-md-8">
+				<div class="logIn-acount">
+					<p class="language"> <i class="fas fa-language"></i> English</p>
+					<h2>تسجيل الدخول الي حسابك الخاص</h2>
+					<p class="hint"> يجب اختيار نوع التسجيل</p>
+
+					<form>
+						<div class="input-box">
+							<input dir="rtl" type="text" name="user name" required="required" />
+							<label>اسم المستخدم</label>
+						</div>
+						<div class="input-box">
+							<input type="password" name="password" required="required" />
+							<label style="left: 78%;" class="pass-me">رقم المرور</label>
+						</div>
+						<a href="#">نسيت كلمة المرور</a>
+						<div class="custom-parent" dir="rtl">
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx">
+								<label class="custom-control-label" for="customRadio"> مستخدم</label>
+							</div>
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customRadio1" name="example1" value="customEx">
+								<label class="custom-control-label" for="customRadio1"> مشرف/محكم</label>
+							</div>
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customRadio2" name="example1" value="customEx">
+								<label class="custom-control-label" for="customRadio2"> مرشد اكاديمى</label>
+							</div>
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customRadio3" name="example1" value="customEx">
+								<label class="custom-control-label" for="customRadio3"> طالب</label>
+							</div>
+							<div class="custom-control custom-radio">
+								<input type="radio" class="custom-control-input" id="customRadio4" name="example1" value="customEx">
+								<label class="custom-control-label" for="customRadio4"> طالب متقدم للدراسات العليا</label>
+							</div>
+						</div>
+						<input type="submit" value=" الدخول" />
+
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!--end log in-->
+
+	<!--   start create an acount-->
+	<section class="sign-up">
+		<div class="row">
+			<div class="col">
+				<div class="signUp-acount">
+					<h2>انشاء حساب طالب متقدم</h2>
+
+					<form>
+						<div class="input-box">
+							<input type="text" name="user name" required="required" />
+							<label class="name-e-me">الاسم بالغه الانجليزيه</label>
+						</div>
+						<div class="input-box">
+							<input type="text" name="user name" required="required" />
+							<label style="left: 55%" class="name-e-me">الاسم باللغه العربيه</label>
+						</div>
+						<div class="input-box">
+							<input type="email" name="mail" required="required" />
+							<label style="left: 61%">البريد الالكتروني</label>
+						</div>
+						<div class="input-box">
+							<input type="password" name="password" required="required" />
+							<label style="left: 74%" >رقم المرور</label>
+						</div>
+						<div class="input-box">
+							<input type="password" name="password" required="required" />
+							<label>اعد ادخال رقم المرور</label>
+						</div>
+
+
+						<div class="custom-control custom-radio custom-control-inline">
+							<input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+							<label class="custom-control-label" for="customRadio">مصري</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline custom-m">
+							<input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+							<label class="custom-control-label" for="customRadio2" style="margin-right: 20px">وافد</label>
+						</div>
+						<div class="input-box">
+							<input type="text" name="user name" required="required" class="m-bottom" />
+							<label style="left: 22%" class="id-me">وثيقة تحقيق الشخصيه /جواز السفر</label>
+						</div>
+						<input type="file" id="myFile" name="filename2">
+						<p class="attach-hint">(صورة البطاقه الشخصيه/جواز السفر)</p>
+
+						<input type="submit" value="ارسال" style="" />
+						<h4 class="text-center back-logIn" style="position: relative;top: 0px;right: 0%;color: #4295c5;text-decoration: none;font-size: 17px;cursor: pointer;">عوده الي تسجيل الدخول</h4>
+
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!--end create an acount-->
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/propper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+body {
+	background-image: url("../img/rawpixel-570914-unsplash.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed
+}
+
+/*start have an acount*/
+.have-an-acount h2 {
+	color: #d4cece;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-weight: lighter;
+	font-size: 38px;
+	margin-bottom: 52px;
+}
+
+/*end have an acount*/
+
+/* start log in page*/
+
+.sign-up {
+
+	height: 400px;
+	margin: 100px auto;
+	border-radius: 8px;
+	display: none
+}
+
+.sign-up h2 {}
+
+.sign-up .row {
+	margin-right: 0
+}
+
+.sign-up .signUp-acount {
+	background-color: #fff;
+	padding: 15px;
+	padding-left: 37px;
+	overflow: hidden;
+	margin-top: -73px;
+	border-radius: 5px;
+	margin-left: 83px;
+	margin-right: 20px;
+	height: 830px;
+	margin-bottom: 50px;
+	width: 440px;
+	overflow: hidden
+}
+
+.sign-up .signUp-acount .language {
+	color: #797878;
+	text-align: right;
+	cursor: pointer;
+	transition: all ease-in-out .3s
+}
+
+.sign-up .signUp-acount h2 {
+	color: #444;
+	font-weight: lighter;
+	font-size: 33px;
+	background-color: #f1553c;
+	width: 33%;
+	padding: 10px;
+	border-radius: 4px;
+	margin-left: 29%;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.sign-up .signUp-acount .hint {
+	color: #525252;
+	font-weight: normal;
+	font-size: 17px;
+	margin-top: 17px;
+}
+
+.sign-up .signUp-acount .language:hover {
+	color: #444
+}
+
+.sign-up .signUp-acount form {
+	width: 80%;
+	margin: auto
+}
+
+.sign-up .signUp-acount input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: #000;
+	width: 100%;
+	border-bottom: 1px solid rgba(224, 221, 221, 0.5);
+	padding: 10px;
+	margin-bottom: 30px;
+
+}
+
+.sign-up .signUp-acount .input-box label {
+	color: #000;
+	position: absolute;
+	top: 13px;
+	left: 0;
+	pointer-events: none;
+	transition: .5s;
+	font-size: 17px
+}
+
+.sign-up .signUp-acount .input-box {
+	position: relative
+}
+
+.sign-up .signUp-acount .input-box input:focus {
+	border-bottom: 3px solid #c13030
+}
+
+.sign-up .signUp-acount .input-box input:focus ~ label {
+	color: #1C8ADB;
+	top: -5px;
+	font-size: 16px;
+
+}
+
+.sign-up .signUp-acount .input-box input:valid ~ label {
+	color: #5687F8;
+	top: -10px;
+	font-size: 16px;
+}
+
+.sign-up .signUp-acount form a {
+	float: right;
+	position: relative;
+	bottom: 23px;
+}
+
+.sign-up .signUp-acount input[type=submit] {
+	background-color: #f1553c;
+	color: #fff;
+	border: none;
+	display: block;
+	font-size: 19px;
+	padding: 8px 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 50%;
+	margin: 25px auto;
+	-webkit-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s
+}
+
+.sign-up .signUp-acount input[type=submit]:hover {
+	background-color: #cc3b24
+}
+
+.sign-up .signUp-acount input[type=file] {
+	border: 0
+}
+
+.sign-up .signUp-acount .custom-m {
+	margin: 6px 0
+}
+
+.sign-up .signUp-acount .m-bottom {
+	margin-bottom: 15px
+}
+
+.sign-up .signUp-acount .attach-hint {
+	display: inline-block;
+	margin-top: -32px;
+	color: #827979;
+
+}
+
+.custom-control-label {
+	margin-bottom: 4px;
+	font-size: 17px;
+	color: #444;
+}
+
+@media(max-width:620px) {
+	.sign-up .signUp-acount {
+		margin-left: auto!important;
+		max-width: 431px!important;
+	}
+	   
+}
+@media(max-width:518px) {
+	.sign-up .signUp-acount {
+		margin-left: 2%!important;
+		margin-right: auto!important;
+		max-width: 400px!important;
+	}
+	.sign-up .signUp-acount h2 {
+    width: 42%;
+	}
+	   
+}
+@media(max-width:420px) {
+	.sign-up .signUp-acount {
+		margin-left: 4%!important;
+		margin-right: auto!important;
+		max-width: 350px!important;
+	}
+	   
+}
+
+
+/*end log in page*/

@@ -1,0 +1,223 @@
+body {
+	background-image: url("../img/rawpixel-570914-unsplash.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed
+}
+
+/*start have an acount*/
+.have-an-acount h2 {
+	color: #d4cece;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-weight: lighter;
+	font-size: 38px;
+	margin-bottom: 52px;
+}
+
+.have-an-acount .btn-success {
+	margin-left: 50px;
+}
+
+/*end have an acount*/
+
+/* start log in page*/
+.log-in {
+	background-color: rgba(0, 0, 0, .7);
+	width: 68%;
+	height: 400px;
+	margin: 100px auto;
+	border-radius: 8px;
+}
+
+.log-in .row {
+	margin-right: 0
+}
+
+.log-in .logIn-acount {
+	background-color: #fff;
+	height: 550px;
+	padding: 15px;
+	padding-left: 37px;
+	overflow: hidden;
+	margin-top: -73px;
+	margin-right: 83px;
+	border-radius: 5px
+}
+
+.log-in .logIn-acount .language {
+	color: #797878;
+	text-align: right;
+	cursor: pointer;
+	transition: all ease-in-out .3s
+}
+
+.log-in .logIn-acount h2 {
+	color: #444;
+	font-weight: lighter;
+	font-size: 33px;
+}
+
+.log-in .logIn-acount .hint {
+	color: #525252;
+	font-weight: normal;
+	font-size: 17px;
+	margin-top: 17px;
+}
+
+.log-in .logIn-acount .language:hover {
+	color: #444
+}
+
+.log-in .logIn-acount form {
+	width: 80%;
+	margin: auto
+}
+
+.log-in .logIn-acount input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: #000;
+	width: 100%;
+	border-bottom: 1px solid rgba(224, 221, 221, 0.5);
+	padding: 10px;
+	margin-bottom: 30px;
+
+}
+
+.log-in .logIn-acount .input-box label {
+	color: #000;
+	position: absolute;
+	top: 13px;
+	left: 0;
+	pointer-events: none;
+	transition: .5s;
+	font-size: 17px
+}
+
+.log-in .logIn-acount .input-box {
+	position: relative
+}
+
+.log-in .logIn-acount .input-box input:focus {
+	border-bottom: 3px solid #c13030
+}
+
+.log-in .logIn-acount .input-box input:focus ~ label {
+	color: #1C8ADB;
+	top: -5px;
+	font-size: 16px;
+
+}
+
+.log-in .logIn-acount .input-box input:valid ~ label {
+	color: #5687F8;
+	top: -10px;
+	font-size: 16px;
+}
+
+.log-in .logIn-acount form a {
+	float: right;
+	position: relative;
+	bottom: 23px;
+}
+
+.log-in .logIn-acount input[type=submit] {
+	background-color: #f1553c;
+	color: #fff;
+	border: none;
+	display: block;
+	font-size: 19px;
+	padding: 8px 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 50%;
+	margin: 25px auto;
+	-webkit-transition: all ease-in-out .3s;
+	transition: all ease-in-out .3s
+}
+
+.log-in .logIn-acount input[type=submit]:hover {
+	background-color: #cc3b24
+}
+
+.custom-control-label {
+	margin-bottom: 4px;
+	font-size: 17px;
+	color: #444;
+}
+
+@media(max-width:1190px) {
+	.log-in {
+		width: 80%
+	}
+}
+
+@media(max-width:992px) {
+	.log-in {
+		width: 90%
+	}
+}
+
+@media(max-width:883px) {
+	.have-an-acount .btn-success {
+		margin-left: 32px;
+		font-size: 15px;
+	}
+
+	.have-an-acount h2 {
+
+		font-size: 33px !important;
+		margin-bottom: 47px !important;
+		margin-left: 30px !important
+	}
+
+	.log-in {
+		width: 95%
+	}
+}
+
+@media(max-width:767px) {
+	.have-an-acount {
+		position: relative !important;
+		top: 162px !important;
+	}
+
+	.log-in {
+		margin-top: 325px !important;
+	}
+
+	.log-in .col-md-4,
+	.log-in .col-md-8 {
+		padding-right: 0;
+	}
+
+	.logIn-acount {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-top: -531px !important
+	}
+}
+
+@media(max-width:404px) {
+	.log-in .logIn-acount h2 {
+		font-size: 28px
+	}
+
+	.have-an-acount h2 {
+		font-size: 29px !important;
+		margin-bottom: 36px !important;
+	}
+
+	.log-in {
+		margin-top: 345px !important;
+	}
+
+	.log-in .logIn-acount .hint {
+		font-size: 16px;
+		margin-top: 16px;
+	}
+}
+
+/*end log in page*/

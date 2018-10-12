@@ -1,0 +1,39 @@
+.sign-up .signUp-acount {
+	height: 860px;
+	overflow: hidden
+}
+.sign-up .signUp-acount h2 {
+    width: 84%;
+    margin-right: 7%;
+	    font-size: 30px;
+}
+.sign-up .signUp-acount .hint {
+    text-align: right;
+    margin-right: 36px;
+}
+.sign-up .signUp-acount .input-box label {
+    top: 13px;
+    left: 52%;
+}
+.sign-up .signUp-acount {
+	margin-left: 83px;
+	margin-right:0 
+}
+.sign-up .signUp-acount .input-box label {
+
+    font-size: 16px;
+}
+@media(max-width:620px){
+	.sign-up .signUp-acount h2 {
+    width: 94%;
+	}
+}
+@media(max-width:516px){
+	.sign-up .signUp-acount .input-box label.id-me {
+	left: 17%!important;
+}
+	.sign-up .signUp-acount .input-box label.name-e-me {
+	left: 48%!important;
+}
+	
+
