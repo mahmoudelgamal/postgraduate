@@ -22,23 +22,31 @@ body {
 .have-an-acount h2 {
 	margin-left: 0
 }
-@media(max-width:767px){
-	.have-an-acount .btn-success{
+
+.log-in .logIn-acount .input-box .pass-me {
+	left: 78%;
+}
+
+@media(max-width:767px) {
+	.have-an-acount .btn-success {
 		margin-left: 30px
 	}
 }
-@media(max-width:532px){
+
+@media(max-width:532px) {
 	.log-in .logIn-acount h2 {
 		font-size: 25px
 	}
 }
-@media(max-width:527px){
+
+@media(max-width:527px) {
 	.log-in .logIn-acount .input-box label {
-	left: 60%;
-}
-	.log-in .logIn-acount .input-box label.pass-me {
-		left: 69%!important;
+		left: 60%;
 	}
-	
+
+	.log-in .logIn-acount .input-box label.pass-me {
+		left: 69% !important;
+	}
+
 
 }

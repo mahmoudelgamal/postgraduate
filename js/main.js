@@ -32,5 +32,14 @@ $(document).ready( function () {
 		);
 		$('.sign-up').hide(300);
 		$('.log-in').fadeIn(500);
-	})
+	});
+	//start custom choose file
+	
+//start choose file customize
+$('input[type="file"]').wrap('<div class="custom-input-file"></div>');
+$('.custom-input-file').prepend('<span>Upload your file here</span>');
+$('.custom-input-file').append('<i class="fas fa-upload"></i>')
+$('input[type="file"]').change(function(){
+	$(this).prev('span').text($(this).val());
+})
 })

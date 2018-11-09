@@ -1,5 +1,4 @@
 .sign-up .signUp-acount {
-	height: 860px;
 	overflow: hidden
 }
 .sign-up .signUp-acount h2 {
@@ -22,6 +21,24 @@
 .sign-up .signUp-acount .input-box label {
 
     font-size: 16px;
+}
+.sign-up .signUp-acount .input-box .name-e-me {
+	left: 55%
+}
+.sign-up .signUp-acount .input-box .email-e-me {
+	left: 61%
+}
+.sign-up .signUp-acount .input-box .pass-e-me {
+	left: 74%
+}
+.sign-up .signUp-acount .foreighn-e-me {
+	margin-right: 20px
+}
+.sign-up .signUp-acount .input-box .id-me {
+	left: 22%
+}
+.sign-up .back-logIn {
+	font-size: 15px
 }
 @media(max-width:620px){
 	.sign-up .signUp-acount h2 {

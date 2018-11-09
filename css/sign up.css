@@ -42,7 +42,6 @@ body {
 	border-radius: 5px;
 	margin-left: 83px;
 	margin-right: 20px;
-	height: 830px;
 	margin-bottom: 50px;
 	width: 440px;
 	overflow: hidden
@@ -171,37 +170,86 @@ body {
 
 }
 
-.custom-control-label {
+.sign-up .custom-control-label {
 	margin-bottom: 4px;
 	font-size: 17px;
 	color: #444;
 }
 
+.sign-up .back-logIn {
+	position: relative;
+	top: -9px;
+	right: 0%;
+	color: #4295c5;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.custom-input-file {
+	border-bottom: 1px solid #efeeee;
+	padding-bottom: 6px;
+	position: relative;
+	margin-top: 12px;
+}
+
+.custom-input-file span {
+	text-align: left;
+	display: block;
+	color: #656464;
+	font-size: 17px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.custom-input-file .fa-upload {
+	position: absolute;
+	top: 10px;
+	left: 89%;
+	color: #636262;
+	z-index: 1;
+	color: #08526d
+}
+
+.custom-input-file input[type='file'] {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2
+}
+
 @media(max-width:620px) {
 	.sign-up .signUp-acount {
-		margin-left: auto!important;
-		max-width: 431px!important;
+		margin-left: auto !important;
+		max-width: 431px !important;
 	}
-	   
+
 }
+
 @media(max-width:518px) {
 	.sign-up .signUp-acount {
-		margin-left: 2%!important;
-		margin-right: auto!important;
-		max-width: 400px!important;
+		margin-left: 2% !important;
+		margin-right: auto !important;
+		max-width: 400px !important;
 	}
+
 	.sign-up .signUp-acount h2 {
-    width: 42%;
+		width: 42%;
 	}
-	   
+
 }
+
 @media(max-width:420px) {
 	.sign-up .signUp-acount {
-		margin-left: 4%!important;
-		margin-right: auto!important;
-		max-width: 350px!important;
+		margin-left: 4% !important;
+		margin-right: auto !important;
+		max-width: 350px !important;
 	}
-	   
+
 }
 
 
