@@ -1,5 +1,6 @@
 body {
 	font-family: 'Cairo', sans-serif;
+	direction: rtl
 }
 
 .log-in .logIn-acount .hint {
@@ -27,9 +28,72 @@ body {
 	left: 78%;
 }
 
+@media(max-width:1320px) {
+	.log-in .logIn-acount .input-box label {
+		left: 66%;
+	}
+
+	.log-in .logIn-acount .input-box .pass-me {
+		left: 75%;
+	}
+}
+@media(max-width:1206px) {
+	.log-in .logIn-acount .input-box label {
+		left: 64%;
+	}
+}
+@media(max-width:839px) {
+	.log-in .logIn-acount .input-box label {
+		left: 60%;
+	}
+
+	.log-in .logIn-acount .input-box .pass-me {
+		left: 71%;
+	}
+}
+@media(max-width:777px) {
+	.log-in .logIn-acount .input-box label {
+		left: 59%;
+	}
+}
+
 @media(max-width:767px) {
 	.have-an-acount .btn-success {
 		margin-left: 30px
+	}
+	.log-in .logIn-acount .input-box label {
+		left: 78%;
+	}
+
+	.log-in .logIn-acount .input-box .pass-me {
+		left: 83%;
+	}
+}
+@media(max-width:697px) {
+	.log-in .logIn-acount .input-box label {
+		left: 76%;
+	}
+
+	.log-in .logIn-acount .input-box .pass-me {
+		left: 82%;
+	}
+}
+@media(max-width:645px) {
+	.log-in .logIn-acount .input-box label {
+		left: 72%;
+	}
+
+	.log-in .logIn-acount .input-box .pass-me {
+		left: 80%;
+	}
+}
+@media(max-width:563px) {
+	.log-in .logIn-acount .input-box label {
+		left: 70%;
+	}
+
+	.log-in .logIn-acount .input-box .pass-me {
+		left: 78%;
 	}
 }
 
