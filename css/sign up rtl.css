@@ -1,3 +1,6 @@
+body {
+	overflow-x: hidden
+}
 .sign-up .signUp-acount {
 	overflow: hidden
 }

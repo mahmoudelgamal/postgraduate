@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<title>طباعة الطلب</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+	body {
+		font-family: 'Cairo', sans-serif;
+	}
+
+	.printing {
+		text-align: right
+	}
+
+	button {
+		float: right;
+		margin: 50px
+	}
+
+</style>
+
+<body>
+	<div class="printing" id="printing">
+		<div class="container">
+			<p>طلب التحاق بالدراسات العليا درجة التخصص(الماجيستير) والعالميه (الدكتوراه) للعام الجامعي 2000م /2001م</p>
+			<p>ملحوظه : تملا البيانات بخط واضح وتسلم مع باقي المستندات المطلوبه</p>
+			<h5>بيانات شخصيه :</h5>
+			<div class="row">
+				<div class="col">
+					<p>الاسم باللغه العربيه:................................ - (............/.............)</p>
+				</div>
+				<div class="col">
+					الجنسيه : ................................................
+				</div>
+			</div>
+			<div class="row">
+				<p>الاسم باللغه الانجليزيه </p>
+			</div>
+			<div class="row">
+				<p>.................................................................................. </p>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<p>تاريخ الميلاد : ...................</p>
+				</div>
+				<div class="col-md-4">
+					<p>جهة الميلاد : ........................</p>
+				</div>
+				<div class="col-md-4">
+					<p>المحافظه : .............................</p>
+				</div>
+			</div>
+			<p>عنوان الاقامه : .....................................................................</p>
+			<div class="row">
+				<div class="col-6">
+					<p>تليفون المنزل : ...............................</p>
+				</div>
+				<div class="col-6">
+					<p>رقم التليفون المحمول : .............................</p>
+				</div>
+			</div>
+			<p>الوظيفه الحاليه : ............................</p>
+			<p>جهة العمل وعنوانه :</p>
+			<p>.....................................................................................</p>
+			<h5 class="text-center">المؤهلات الدراسيه</h5>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>المؤهل الحاصل عليه</th>
+						<th>جهة التخرج</th>
+						<th>جة التعليم</th>
+						<th>سنة التخرج</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<button class="btn" onclick="printDiv('printing')">اطبع الان حصريا ولفتره محدوده</button>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/propper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		function printDiv(divName) {
+			var printContents = document.getElementById(divName).innerHTML;
+			var originalContents = document.body.innerHTML;
+
+			document.body.innerHTML = printContents;
+
+			window.print();
+
+			document.body.innerHTML = originalContents;
+		}
+
+	</script>
+
+</body>
+
+</html>
